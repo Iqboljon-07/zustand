@@ -11,7 +11,7 @@ function Main() {
   const [edit, setEdit] = useState(null);
 
   const { datas, createData, handleDelete, changeData } = useStore();
-  console.log(datas);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!title.trim() || !author.trim() || !genre.trim() || !year) {
@@ -64,7 +64,6 @@ function Main() {
   //     setGenre(book.genre);
   //     setYear(book.year);
   //   };
-  console.log(edit);
 
   return (
     <>
