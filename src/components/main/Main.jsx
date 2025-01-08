@@ -44,8 +44,7 @@ function Main() {
     setGenre("");
     setYear("");
   };
-  console.log(datas);
-  console.log(title);
+
   const changeStore = (book) => {
     setEdit(book.id);
     setTitle(book.title);
